@@ -26,3 +26,5 @@ known_third_part=[]
 
 [tool.taskipy.tasks] 
 format = "isort . && blue ." 
+test = "pytest -v"
+run = "python app/main.py"
